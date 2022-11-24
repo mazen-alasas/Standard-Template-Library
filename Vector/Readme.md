@@ -90,22 +90,22 @@
   ```
 #### STL Algorithms
   - Swap two vector
-  ```cpp
-  vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
-                                 /// v2 = {2,2,2,2,2,2,2}
-  swap(v1,v2);
-  cout<<"vector 1 : ";
-  for(int i = 0; i < v1.size(); i++)
-      cout << v1[i] << ' ';
-  cout << "vector 2 : ";
-  for(int i = 0; i < v2.size(); i++)
-      cout << v2[i] << ' ';
-  ```
-  #### output :
-  ```
-  vector 1 : 2 2 2 2 2 2 2
-  vector 2 : 3 3 3 3
-  ```
+    ```cpp
+    vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
+                                   /// v2 = {2,2,2,2,2,2,2}
+    swap(v1,v2);
+    cout<<"vector 1 : ";
+    for(int i = 0; i < v1.size(); i++)
+        cout << v1[i] << ' ';
+    cout << "vector 2 : ";
+    for(int i = 0; i < v2.size(); i++)
+        cout << v2[i] << ' ';
+    ```
+    #### output :
+    ```
+    vector 1 : 2 2 2 2 2 2 2
+    vector 2 : 3 3 3 3
+    ```
   - Sort
   - Search
   - Reverse
