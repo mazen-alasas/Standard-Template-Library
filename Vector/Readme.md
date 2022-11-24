@@ -41,30 +41,36 @@
     - [emplase()](https://cplusplus.com/reference/vector/vector/emplace/)   Construct and insert element  
 
 #### Initialize A Vector With User Input
-  ```cpp
-  vector <int> v(5);
-  for(int i = 0; i < 5; i++)
-      cin >> v[i];
-  // or
-  vector <int> v2;
-  int a;
-  for(int i = 0; i < 5; i++){
-      cin >> a;
-      v1.push_back(a);
-  }
-  // or
-  int b;
-  vector <int> v3;
-  while(cin >> b)
-     v3.push_back(b);
-  ```
-  
-  
-  
-  
-  
-  
-  
-
+```cpp
+vector <int> v(5);
+for(int i = 0; i < 5; i++)
+    cin >> v[i];
+// or
+vector <int> v2;
+int a;
+for(int i = 0; i < 5; i++){
+    cin >> a;
+    v1.push_back(a);
+}
+// or
+int b;
+vector <int> v3;
+while(cin >> b)
+   v3.push_back(b);
+```
+#### Print elements of Vector
+```cpp
+vector <int> v4 = { 10, 20, 30, 40, 50, 60 };
+for(int i = 0; i < 5; i++)
+    cout << v4[i] << ' ';
+// or
+for(auto element : v4)
+    cout << element << ' ';
+```
+##### output :
+```
+10 20 30 40 50 60 
+10 20 30 40 50 60 
+```
 
 
