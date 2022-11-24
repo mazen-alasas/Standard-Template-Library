@@ -1,11 +1,11 @@
 # **Vector** is a class that creates a dynamic array allowing insertions and deletions at the back.
 
-#### First import Vector Library
+### First import Vector Library
 ```cpp
 #include <vector>
 ```
 
-#### Syntax 
+### Syntax 
   - 1d Vector
   ```cpp
   // vector <DataType> VectorName(VectorSize);
@@ -18,7 +18,7 @@
   vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
   ```
   
-#### Vector Functions
+### Vector Functions
   - Iterators :
     - [begin()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/)   Returns an iterator to the first element in the vector
     - [end()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/)   Returns an iterator to the last element in the vector
@@ -40,7 +40,7 @@
     - [clear()](https://www.geeksforgeeks.org/vector-erase-and-clear-in-cpp/)   Clear content
     - [emplase()](https://cplusplus.com/reference/vector/vector/emplace/)   Construct and insert element  
 
-#### Initialize a wector with user input
+### Initialize a wector with user input
   ```cpp
   vector <int> v(5);
   for(int i = 0; i < 5; i++)
@@ -58,7 +58,7 @@
   while(cin >> b)
      v3.push_back(b);
   ```
-#### Print elements of Vector
+### Print elements of Vector
   - 1d Vector
   ```cpp
   vector <int> v4 = { 10, 20, 30, 40, 50, 60 };
@@ -88,7 +88,7 @@
   4 5 6
   7 8 9 10
   ```
-#### STL Algorithms
+### STL Algorithms
   - Swap two vector
     ```cpp
     vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
@@ -107,9 +107,27 @@
     vector 2 : 3 3 3 3
     ```
   - Sort
+    ```cpp
+    vector <int> v{ 1, 5, 8, 9, 6, 7, 3, 0};
+    sort(v.begin(),v.end());
+    for(auto element : v)
+        cout<< element << ' ';
+    ```
+    output :
+    ```
+    0 1 3 5 6 7 8 9
+    ```
   - Search
   - Reverse
   - Max & Min element
+
+
+
+
+
+
+
+
 
 
 
