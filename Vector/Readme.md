@@ -68,7 +68,7 @@
     for(auto element : v4)
         cout << element << ' ';
     ```
-    output :
+    output : 
     ```
     10 20 30 40 50 60 
     10 20 30 40 50 60 
@@ -82,7 +82,7 @@
       cout << endl;
     }
      ```
-    output :
+    output : 
     ```
     1 2
     4 5 6
@@ -101,7 +101,7 @@
     for(int i = 0; i < v2.size(); i++)
         cout << v2[i] << ' ';
     ```
-    output :
+    output : 
     ```
     vector 1 : 2 2 2 2 2 2 2
     vector 2 : 3 3 3 3
@@ -113,7 +113,7 @@
     for(auto element : v)
         cout<< element << ' ';
     ```
-    output :
+    output : 
     ```
     0 1 3 5 6 7 8 9
     ```    
@@ -123,7 +123,7 @@
     for(auto element : v)
         cout<< element << ' ';
     ```
-    output :
+    output : 
     ```
     9 8 7 6 5 3 1 0
     ```
@@ -132,7 +132,7 @@
     cout << *min_element(v.begin(),v.end());
     cout << *max_element(v.begin(),v.end()); 
     ```
-    output :
+    output : 
     ```
     11 
     99
