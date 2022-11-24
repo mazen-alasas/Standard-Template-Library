@@ -6,13 +6,13 @@
 ```
 
 #### Syntax 
-  - 1D Vector
+  - 1d Vector
   ```cpp
   // vector <DataType> VectorName(VectorSize);
   take vector <int> v(6);
   v = {7,1,9,5,2,4};
   ```
-  - 2D Vector
+  - 2d Vector
   ```cpp
   vector <vector <int>> vec;
   vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
@@ -41,36 +41,51 @@
     - [emplase()](https://cplusplus.com/reference/vector/vector/emplace/)   Construct and insert element  
 
 #### Initialize a wector with user input
-```cpp
-vector <int> v(5);
-for(int i = 0; i < 5; i++)
-    cin >> v[i];
-// or
-vector <int> v2;
-int a;
-for(int i = 0; i < 5; i++){
-    cin >> a;
-    v1.push_back(a);
-}
-// or
-int b;
-vector <int> v3;
-while(cin >> b)
-   v3.push_back(b);
-```
+  ```cpp
+  vector <int> v(5);
+  for(int i = 0; i < 5; i++)
+      cin >> v[i];
+  // or
+  vector <int> v2;
+  int a;
+  for(int i = 0; i < 5; i++){
+      cin >> a;
+      v1.push_back(a);
+  }
+  // or
+  int b;
+  vector <int> v3;
+  while(cin >> b)
+     v3.push_back(b);
+  ```
 #### Print elements of Vector
-```cpp
-vector <int> v4 = { 10, 20, 30, 40, 50, 60 };
-for(int i = 0; i < 5; i++)
-    cout << v4[i] << ' ';
-// or
-for(auto element : v4)
-    cout << element << ' ';
-```
-##### output :
-```
-10 20 30 40 50 60 
-10 20 30 40 50 60 
-```
-
+  - 1d Vector
+    ```cpp
+    vector <int> v4 = { 10, 20, 30, 40, 50, 60 };
+    for(int i = 0; i < 5; i++)
+        cout << v4[i] << ' ';
+    // or
+    for(auto element : v4)
+        cout << element << ' ';
+    ```
+    ##### output :
+    ```
+    10 20 30 40 50 60 
+    10 20 30 40 50 60 
+    ```
+  - 2d Vector
+    ```cpp
+    vector <vector<int>> v { {1, 2},{4, 5, 6},{7, 8, 9, 10} };
+    for (int i = 0; i < v.size(); i++) {
+      for (int j = 0; j < v[i].size(); j++)
+        cout << v[i][j] << " ";
+      cout << endl;
+    }
+     ```
+    ##### output :
+    ```
+    1 2
+    4 5 6
+    7 8 9 10
+    ```
 
