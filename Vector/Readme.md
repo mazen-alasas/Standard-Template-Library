@@ -94,7 +94,7 @@
     vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
                                    /// v2 = {2,2,2,2,2,2,2}
     swap(v1,v2);
-    cout<<"vector 1 : ";
+    cout << "vector 1 : ";
     for(int i = 0; i < v1.size(); i++)
         cout << v1[i] << ' ';
     cout << "vector 2 : ";
@@ -111,7 +111,7 @@
     vector <int> v{1, 5, 8, 9, 6, 7, 3, 0};
     sort(v.begin(),v.end());
     for(auto element : v)
-        cout<< element << ' ';
+        cout << element << ' ';
     ```
     output : 
     ```
@@ -121,7 +121,7 @@
     ```cpp
     reverse(v.begin(), v.end());
     for(auto element : v)
-        cout<< element << ' ';
+        cout << element << ' ';
     ```
     output : 
     ```
