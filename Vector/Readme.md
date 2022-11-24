@@ -18,39 +18,23 @@ First import Vector Library
   vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
   ```
 #### Vector Functions
-  - begin()  Returns an iterator pointing to the first element in the vector
-  - end()  Returns an iterator pointing to the theoretical element that follows the last element in the vector
-  - rbegin()  Returns a reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
-  - rend()  Returns a reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
-  - cbegin() – Returns a constant iterator pointing to the first element in the vector.
-  - cend() – Returns a constant iterator pointing to the theoretical element that follows the last element in the vector.
-  - crbegin() – Returns a constant reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
-  - crend() – Returns a constant reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  - Iterators :
+    - [begin()]()   Returns an iterator to the first element in the vector
+    - [end()]()   Returns an iterator to the last element in the vector
+  - Capacity :
+    - [size()]()   Returns the number of elements in the vector
+    - [max_size()]()   Returns the maximum number of elements that the vector can hold
+    - [empty()]()   return 1 if vector is empty else return 0
+  - Element access :
+    - [at()]()  Access element
+    - [front()]()   Access first element
+    - [back()]()   Access last element
+  - Modifiers :
+    - [assign()]()   Assign vector content
+    - [push_back()]()   Add element at the end
+    - [pop_back()]()   Delete last element
+    - [insert()]()   Insert elements
+    - [erase()]()   Erase elements
+    - [swap()]()   Swap content
+    - [clear()]()   Clear content
+    - [emplase()]()   Construct and insert element  
