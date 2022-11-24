@@ -1,22 +1,22 @@
 ## **Vector** is a class that creates a dynamic array allowing insertions and deletions at the back.
 
 #### First import Vector Library
-```cpp
-#include <vector>
-```
+  ```cpp
+  #include <vector>
+  ```
 
 #### Syntax 
   - 1d Vector
-  ```cpp
-  // vector <DataType> VectorName(VectorSize);
-  take vector <int> v(6);
-  v = {7,1,9,5,2,4};
-  ```
+    ```cpp
+    // vector <DataType> VectorName(VectorSize);
+    take vector <int> v(6);
+    v = {7,1,9,5,2,4};
+    ```
   - 2d Vector
-  ```cpp
-  vector <vector <int>> vec;
-  vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
-  ```
+    ```cpp
+    vector <vector <int>> vec;
+    vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
+    ```
   
 #### Vector Functions
   - Iterators :
@@ -76,8 +76,8 @@
   - 2d Vector
     ```cpp
     vector <vector<int>> v { {1, 2},{4, 5, 6},{7, 8, 9, 10} };
-    for (int i = 0; i < v.size(); i++) {
-      for (int j = 0; j < v[i].size(); j++)
+    for(int i = 0; i < v.size(); i++) {
+      for(int j = 0; j < v[i].size(); j++)
         cout << v[i][j] << " ";
       cout << endl;
     }
@@ -88,4 +88,28 @@
     4 5 6
     7 8 9 10
     ```
+#### STL Algorithms
+  - Swap two vector
+    ```cpp
+    vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
+                                   /// v2 = {2,2,2,2,2,2,2}
+    swap(v1,v2);
+    cout<<"vector 1 : ";
+    for(int i = 0; i < v1.size(); i++)
+        cout << v1[i] << ' ';
+    cout << "vector 2 : ";
+    for(int i = 0; i < v2.size(); i++)
+        cout << v2[i] << ' ';
+    ```
+    #### output :
+    ```
+    vector 1 : 2 2 2 2 2 2 2
+    vector 2 : 3 3 3 3
+    ```
+  - Sort
+  - Search
+  - Reverse
+  - Max & Min element
+
+
 
