@@ -7,16 +7,16 @@
 
 ### Syntax 
   - #### 1d Vector
-  ```cpp
-  // vector <DataType> VectorName(VectorSize);
-  take vector <int> v(6);
-  v = {7,1,9,5,2,4};
-  ```
+    ```cpp
+    // vector <DataType> VectorName(VectorSize);
+    take vector <int> v(6);
+    v = {7,1,9,5,2,4};
+    ```
   - ### 2d Vector
-  ```cpp
-  vector <vector <int>> vec;
-  vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
-  ```
+    ```cpp
+    vector <vector <int>> vec;
+    vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
+    ```
   
 ### Vector Functions
   - Iterators :
@@ -60,34 +60,34 @@
   ```
 ### Print elements of Vector
   - #### 1d Vector
-  ```cpp
-  vector <int> v4 = { 10, 20, 30, 40, 50, 60 };
-  for(int i = 0; i < 5; i++)
-      cout << v4[i] << ' ';
-  // or
-  for(auto element : v4)
-      cout << element << ' ';
-  ```
-  output :
-  ```
-  10 20 30 40 50 60 
-  10 20 30 40 50 60 
-  ```
+    ```cpp
+    vector <int> v4 = { 10, 20, 30, 40, 50, 60 };
+    for(int i = 0; i < 5; i++)
+        cout << v4[i] << ' ';
+    // or
+    for(auto element : v4)
+        cout << element << ' ';
+    ```
+    output :
+    ```
+    10 20 30 40 50 60 
+    10 20 30 40 50 60 
+    ```
   - #### 2d Vector
-  ```cpp
-  vector <vector<int>> v { {1, 2},{4, 5, 6},{7, 8, 9, 10} };
-  for(int i = 0; i < v.size(); i++) {
-    for(int j = 0; j < v[i].size(); j++)
-      cout << v[i][j] << " ";
-    cout << endl;
-  }
-   ```
-  output :
-  ```
-  1 2
-  4 5 6
-  7 8 9 10
-  ```
+    ```cpp
+    vector <vector<int>> v { {1, 2},{4, 5, 6},{7, 8, 9, 10} };
+    for(int i = 0; i < v.size(); i++) {
+      for(int j = 0; j < v[i].size(); j++)
+        cout << v[i][j] << " ";
+      cout << endl;
+    }
+     ```
+    output :
+    ```
+    1 2
+    4 5 6
+    7 8 9 10
+    ```
 ### STL Algorithms
   - #### Swap two vector
     ```cpp
