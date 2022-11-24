@@ -16,9 +16,9 @@
  
  
  ### Articles
-   1. [GeeksforGeeks](https://www.geeksforgeeks.org/cpp-stl-tutorial/)
-   2. [cplusplus](https://cplusplus.com/reference/stl/)
-   3. [Javatpoint](https://www.javatpoint.com/cpp-stl-components)
+   - [GeeksforGeeks](https://www.geeksforgeeks.org/cpp-stl-tutorial/)
+   - [cplusplus](https://cplusplus.com/reference/stl/)
+   - [Javatpoint](https://www.javatpoint.com/cpp-stl-components)
  
  ### Problems
    - [Sheet 1](https://codeforces.com/group/3nQaj5GMG5/contest/373244)
