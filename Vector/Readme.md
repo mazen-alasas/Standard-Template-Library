@@ -134,11 +134,15 @@
     ```
     output : 
     ```
-    11 
-    99
+    1
+    9
     ```
-    
-    O(1)
+### The time complexity for doing various operations on vectors is-
+  - Random access – constant $$O(1)$$
+  - Insertion or removal of elements at the end – constant $$O(1)$$
+  - Insertion or removal of elements – linear in the distance to the end of the vector $$O(N)$$
+  - Knowing the size – constant $$O(1)$$
+  - Resizing the vector- Linear $O(N)$
 
 
 
