@@ -6,13 +6,13 @@
 ```
 
 ### Syntax 
-  - 1d Vector
+  - #### 1d Vector
   ```cpp
   // vector <DataType> VectorName(VectorSize);
   take vector <int> v(6);
   v = {7,1,9,5,2,4};
   ```
-  - 2d Vector
+  - ### 2d Vector
   ```cpp
   vector <vector <int>> vec;
   vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
@@ -59,7 +59,7 @@
      v3.push_back(b);
   ```
 ### Print elements of Vector
-  - 1d Vector
+  - #### 1d Vector
   ```cpp
   vector <int> v4 = { 10, 20, 30, 40, 50, 60 };
   for(int i = 0; i < 5; i++)
@@ -68,12 +68,12 @@
   for(auto element : v4)
       cout << element << ' ';
   ```
-  ##### output :
+  output :
   ```
   10 20 30 40 50 60 
   10 20 30 40 50 60 
   ```
-  - 2d Vector
+  - #### 2d Vector
   ```cpp
   vector <vector<int>> v { {1, 2},{4, 5, 6},{7, 8, 9, 10} };
   for(int i = 0; i < v.size(); i++) {
@@ -82,14 +82,14 @@
     cout << endl;
   }
    ```
-  ##### output :
+  output :
   ```
   1 2
   4 5 6
   7 8 9 10
   ```
 ### STL Algorithms
-  - Swap two vector
+  - #### Swap two vector
     ```cpp
     vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
                                    /// v2 = {2,2,2,2,2,2,2}
@@ -101,14 +101,14 @@
     for(int i = 0; i < v2.size(); i++)
         cout << v2[i] << ' ';
     ```
-    #### output :
+    output :
     ```
     vector 1 : 2 2 2 2 2 2 2
     vector 2 : 3 3 3 3
     ```
-  - Sort
+  - #### Sort
     ```cpp
-    vector <int> v{ 1, 5, 8, 9, 6, 7, 3, 0};
+    vector <int> v{1, 5, 8, 9, 6, 7, 3, 0};
     sort(v.begin(),v.end());
     for(auto element : v)
         cout<< element << ' ';
@@ -116,17 +116,29 @@
     output :
     ```
     0 1 3 5 6 7 8 9
+    ```    
+  - #### Reverse
+    ```cpp
+    reverse(v.begin(), v.end());
+    for(auto element : v)
+        cout<< element << ' ';
     ```
-  - Search
-  - Reverse
-  - Max & Min element
-
-
-
-
-
-
-
+    output :
+    ```
+    9 8 7 6 5 3 1 0
+    ```
+  - #### Max & Min element
+    ```cpp
+    cout << *min_element(v.begin(),v.end());
+    cout << *max_element(v.begin(),v.end()); 
+    ```
+    output :
+    ```
+    11 
+    99
+    ```
+    
+    O(1)
 
 
 
