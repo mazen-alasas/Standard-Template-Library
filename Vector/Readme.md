@@ -54,9 +54,9 @@
   }
   // or
   int b;
-  vector <int> v;
+  vector <int> v3;
   while(cin >> b)
-     v.push_back(b);
+     v3.push_back(b);
   ```
   
   
