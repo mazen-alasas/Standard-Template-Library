@@ -1,6 +1,6 @@
 ## **Vector** is a class that creates a dynamic array allowing insertions and deletions at the back.
 
-First import Vector Library
+#### First import Vector Library
 ```cpp
 #include <vector>
 ```
