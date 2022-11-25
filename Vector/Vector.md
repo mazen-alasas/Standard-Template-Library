@@ -42,15 +42,15 @@
 
 ### Initialize a vector with user input
   ```cpp
-  vector <int> v(5);
+  vector <int> v1(5);
   for(int i = 0; i < 5; i++)
-      cin >> v[i];
+      cin >> v1[i];
   // or
-  vector <int> v2;
   int a;
+  vector <int> v2;
   for(int i = 0; i < 5; i++){
       cin >> a;
-      v1.push_back(a);
+      v2.push_back(a);
   }
   // or
   int b;
