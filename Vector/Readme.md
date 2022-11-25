@@ -9,7 +9,7 @@
   - #### 1d Vector
     ```cpp
     // vector <DataType> VectorName(VectorSize);
-    take vector <int> v(6);
+    vector <int> v(6);
     v = {7,1,9,5,2,4};
     ```
   - ### 2d Vector
