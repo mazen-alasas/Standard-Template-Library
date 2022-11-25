@@ -30,42 +30,42 @@
     - [count()](https://cplusplus.com/reference/set/set/count/) Gets the number of elements matching with given element
 
 ### Initialize a Set
-  ```cpp
-  set <int> s1;
-  s1.insert(5);
-  s1.insert(3);
-  s1.insert(2);
-  s1.insert(1);
-  // or
-  int a;
-  set <int> s2;
-  for(int i = 0; i < 5; i++){
-      cin >> a;
-      s2.insert(a);
-  }
-  // or
-  int b;
-  set <int> s3;
-  while(cin >> b)
-     s3.insert(b);
-  ```
+    ```cpp
+    set <int> s1;
+    s1.insert(5);
+    s1.insert(3);
+    s1.insert(2);
+    s1.insert(1);
+    // or
+    int a;
+    set <int> s2;
+    for(int i = 0; i < 5; i++){
+        cin >> a;
+        s2.insert(a);
+    }
+    // or
+    int b;
+    set <int> s3;
+    while(cin >> b)
+       s3.insert(b);
+    ```
 ### Print elements of Set
-  ```cpp
-  set<int>s;
-  for(int i=0;i<5;i++)
-      s.insert(i);
-      
-  for(auto it = s.begin(); it != s.end(); it++)
-      cout << *it << ' ';
-  // or
-  for(auto element : s)
-      cout << element << ' ';
-  ```
-  output : 
-  ```
-  0 1 2 3 4 
-  0 1 2 3 4 
-  ```
+    ```cpp
+    set<int>s;
+    for(int i=0;i<5;i++)
+        s.insert(i);
+
+    for(auto it = s.begin(); it != s.end(); it++)
+        cout << *it << ' ';
+    // or
+    for(auto element : s)
+        cout << element << ' ';
+    ```
+    output : 
+    ```
+    0 1 2 3 4 
+    0 1 2 3 4 
+    ```
 ### Set Algorithms
   - #### Max & Min element
     ```cpp
