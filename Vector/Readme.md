@@ -40,7 +40,7 @@
     - [clear()](https://www.geeksforgeeks.org/vector-erase-and-clear-in-cpp/)   Clear content
     - [emplase()](https://cplusplus.com/reference/vector/vector/emplace/)   Construct and insert element  
 
-### Initialize a wector with user input
+### Initialize a vector with user input
   ```cpp
   vector <int> v(5);
   for(int i = 0; i < 5; i++)
