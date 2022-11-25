@@ -88,7 +88,7 @@
     4 5 6
     7 8 9 10
     ```
-### STL Algorithms
+### Vector Algorithms
   - #### Swap two vector
     ```cpp
     vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
