@@ -8,7 +8,7 @@
 ### Syntax 
   ```cpp
   // set <DataType> setName;
-  set <int> s = {7,1,9,5,2,4};
+  set <int> s = {7, 1, 9, 5, 2, 4};
   ```
   
 ### Set Functions
