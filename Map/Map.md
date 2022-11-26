@@ -36,44 +36,64 @@
 
 
 
-### Initialize a Set
+### Initialize map
   ```cpp
-  set <int> s1;
-  s1.insert(5);
-  s1.insert(3);
-  s1.insert(2);
-  s1.insert(1);
+  map <int, string> m1 = {{503, "mazen"}, {501, "ali"}, {502, "ahmed"}};
   // or
-  int a;
-  set <int> s2;
+  map <int, string> m2;
+  m2[2] = "khaled";
+  m2[1] = "ashraf";
+  m2[3] = "siiiii";
+  // or
+  string s;
+  map <int, string> m3;
   for(int i = 0; i < 5; i++){
-      cin >> a;
-      s2.insert(a);
+      cin>>s;
+      m3[i]=s;
   }
   // or
-  int b;
-  set <int> s3;
-  while(cin >> b)
-     s3.insert(b);
-  ```
-### Print elements of Set
-  ```cpp
-  set<int>s;
-  for(int i=0;i<5;i++)
-      s.insert(i);
-
-  for(auto it = s.begin(); it != s.end(); it++)
-      cout << *it << ' ';
+  int x, size = 5; string s;
+  map <int, string> m4;
+  while(size--){
+    cin >> x >> s;
+    m4[x] = s;
+  }
   // or
-  for(auto element : s)
-      cout << element << ' ';
+  map <char, int> m5 = {{'a', 10}, {'c', 20}, {'b', 30}};
+  m5.insert(pair <char, int> ('s', 40));
+  m5.insert({'n', 11});
   ```
-  output : 
-  ```
-  0 1 2 3 4 
-  0 1 2 3 4 
-  ```
-### Set Algorithms
+### Print elements of map
+  - Print value only
+    ```cpp
+    char arr[5] = {'v', 's', 'r', 's', 'a'};
+    map <int, string> m;
+    for(int i = 0; i < 5; i++)
+        m[i] = arr[i];
+    for(int i = 0; i < 5; i++)
+        cout << m[i] <<endl;
+    ```
+    output : 
+    ```
+    v
+    s
+    r
+    s
+    a
+    ```
+  - Print Keys & Values
+    ```cpp
+    map <char, int> m = {{'a', 10}, {'c', 20}, {'b', 30}};
+    for(auto x: m)
+        cout << x.first << " -> " << x.second <<endl;
+    ```
+    output :
+    ```
+    a -> 10
+    b -> 30
+    c -> 20
+    ```
+### Map Algorithms
   - #### Max & Min element
     ```cpp
     // it's already sorted ( ascending order )
