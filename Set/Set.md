@@ -13,8 +13,8 @@
   
 ### Set Functions
   - Iterators :
-    - [begin()](https://www.javatpoint.com/cpp-set-begin-function) Returns an iterator to the first element in the vector
-    - [end()](https://www.javatpoint.com/cpp-set-end-function) Returns an iterator to the last element in the vector
+    - [begin()](https://www.javatpoint.com/cpp-set-begin-function) Returns an iterator to the first element in the set
+    - [end()](https://www.javatpoint.com/cpp-set-end-function) Returns an iterator to the last element in the set
   - Capacity :
     - [size()](https://www.geeksforgeeks.org/setsize-c-stl/) Returns the number of elements in the set
     - [max_size()](https://www.geeksforgeeks.org/set-max_size-function-in-c-stl/) Returns the maximum number of elements that the set can hold
