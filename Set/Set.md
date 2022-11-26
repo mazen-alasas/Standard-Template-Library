@@ -7,7 +7,7 @@
 
 ### Syntax 
   ```cpp
-  // set <DataType> setrName;
+  // set <DataType> setName;
   set <int> s = {7,1,9,5,2,4};
   ```
   
