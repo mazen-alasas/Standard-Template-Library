@@ -51,8 +51,8 @@
   ```
 ### Print elements of Set
   ```cpp
-  set<int>s;
-  for(int i=0;i<5;i++)
+  set <int> s;
+  for(int i = 0; i < 5; i++)
       s.insert(i);
 
   for(auto it = s.begin(); it != s.end(); it++)
@@ -70,6 +70,9 @@
   - #### Max & Min element
     ```cpp
     // it's already sorted ( ascending order )
+    set <int> s;
+    for(int i = 0; i < 5; i++)
+      s.insert(i);
     cout << *s.begin();
     auto it = s.end();
     *it--;
