@@ -11,7 +11,7 @@
   set <int> s = {7, 1, 9, 5, 2, 4};
   ```
   
-### Set Functions
+### Set Functions :
   - Iterators :
     - [begin()](https://www.javatpoint.com/cpp-set-begin-function) Returns an iterator to the first element in the set
     - [end()](https://www.javatpoint.com/cpp-set-end-function) Returns an iterator to the last element in the set
@@ -66,7 +66,7 @@
   0 1 2 3 4 
   0 1 2 3 4 
   ```
-### Set Algorithms
+### Set Algorithms :
   - #### Max & Min element
     ```cpp
     // it's already sorted ( ascending order )
@@ -93,7 +93,7 @@
     ```
     4 3 2 1 0
     ```
-### Properties:
+### Properties :
   - **Storing order** – The set stores the elements in sorted order.
   - **Values Characteristics** – All the elements in a set have unique values.
   - **Search Technique** – Sets follow the Binary search tree implementation.
