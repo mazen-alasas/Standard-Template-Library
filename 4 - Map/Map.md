@@ -119,4 +119,7 @@
   - All the elements in a map have **unique keys**.
   - Insertion of Elements $O(log N)$
   - Deletion of Elements $O(log N)$
- 
+----
+Related Articles 
+  -> [Multimap](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/?ref=rp)
+  -> [Unorder_map](https://en.cppreference.com/w/cpp/container/unordered_map)
