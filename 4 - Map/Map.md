@@ -93,34 +93,30 @@
     b -> 30
     c -> 20
     ```
-### Map Algorithms
-  - #### Max & Min element
+### Map uses :
+  - #### Frequency
     ```cpp
-    // it's already sorted ( ascending order )
-    cout << *s.begin();
-    auto it = s.end();
-    *it--;
-    cout << *it;
+    vector <int> vec = { 1, 2, 9, 0, 1, 4, 4, 5 };
+    map <int, int> freq;
+
+    for (int i = 0; i < vec.size(); i++)
+            freq[vec[i]]++;
+
+    for(auto x: freq)
+        cout << x.first << " -> " << x.second << endl;
     ```
     output : 
     ```
-    0
-    4
+    0 -> 1
+    1 -> 2
+    2 -> 1
+    4 -> 2
+    5 -> 1
+    9 -> 1
     ```
-  - #### Descending order
-    ```cpp
-    set <int,greater<int>> s1{0, 1, 2, 3, 4};
-    for(auto element : s1)
-        cout << element << ' ';
-    ```
-    output : 
-    ```
-    4 3 2 1 0
-    ```
-### Properties:
-  - **Storing order** – The set stores the elements in sorted order.
-  - **Values Characteristics** – All the elements in a set have unique values.
-  - **Search Technique** – Sets follow the Binary search tree implementation.
-  - **Arranging order** – The values in a set are **unindexed**.
+### Properties :
+  - **Storing order** – The map stores the elements in ascending order by $keys$.
+  - All the elements in a map have **unique keys**.
   - Insertion of Elements $O(log N)$
   - Deletion of Elements $O(log N)$
+ 
