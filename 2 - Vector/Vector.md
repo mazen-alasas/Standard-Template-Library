@@ -18,7 +18,7 @@
     vec = { {1, 2, 3},{4, 5, 6},{7, 8, 9} };
     ```
   
-### Vector Functions
+### Vector Functions :
   - Iterators :
     - [begin()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/)   Returns an iterator to the first element in the vector
     - [end()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/)   Returns an iterator to the last element in the vector
@@ -95,7 +95,7 @@
     4 5 6
     7 8 9 10
     ```
-### Vector Algorithms
+### Vector Algorithms :
   - #### Swap two vector
     ```cpp
     vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
