@@ -66,7 +66,7 @@
   0 1 2 3 4 
   0 1 2 3 4 
   ```
-### Set Algorithms :
+### Set uses :
   - #### Max & Min element
     ```cpp
     // it's already sorted ( ascending order )
