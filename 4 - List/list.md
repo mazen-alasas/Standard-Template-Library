@@ -38,69 +38,66 @@
     - [find()](https://www.geeksforgeeks.org/multiset-count-function-in-c-stl/) Search for an element with given element
     - [count()](https://cplusplus.com/reference/set/set/count/) Gets the number of elements matching with given element
 
-### Initialize a Set
+### Initialize a List
   ```cpp
-  set <int> s1;
-  s1.insert(5);
-  s1.insert(3);
-  s1.insert(2);
-  s1.insert(1);
+  list <int> l1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+  // or
+  list <int> l2(4);
+  l.push_back(4);
+  l.push_front(1);
+  // or
+  list<int>l3;
+  l3.assign({5,4,8,7});
   // or
   int a;
-  set <int> s2;
+  list <int> l4;;
   for(int i = 0; i < 5; i++){
       cin >> a;
-      s2.insert(a);
+      l4.push_back(a);
   }
-  // or
-  int b;
-  set <int> s3;
-  while(cin >> b)
-     s3.insert(b);
   ```
-### Print elements of Set
+### Print elements of List
   ```cpp
-  set <int> s;
-  for(int i = 0; i < 5; i++)
-      s.insert(i);
-
-  for(auto it = s.begin(); it != s.end(); it++)
-      cout << *it << ' ';
-  // or
-  for(auto element : s)
+  list <int> l = {4, 5, 8, 6, 3, 1};
+  for(auto element : l)
       cout << element << ' ';
+  // or
+  for(auto it = l.begin(); it != l.end(); it++)
+        cout << *it << ' ';
   ```
   output : 
   ```
-  0 1 2 3 4 
-  0 1 2 3 4 
+  4 5 8 6 3 1
+  4 5 8 6 3 1
   ```
 ### Set uses :
-  - #### Max & Min element
+  - #### Merging (Sorted)
     ```cpp
-    // it's already sorted ( ascending order )
-    set <int> s;
-    for(int i = 0; i < 5; i++)
-      s.insert(i);
-    cout << *s.begin();
-    auto it = s.end();
-    *it--;
-    cout << *it;
-    ```
-    output : 
-    ```
-    0
-    4
-    ```
-  - #### Descending order
-    ```cpp
-    set <int,greater<int>> s1{0, 1, 2, 3, 4};
-    for(auto element : s1)
+    list <int> l1 = {0, 2, 4}, l2 = {1, 3, 5};
+    l1.merge(l2);
+    for(auto element : l1)
         cout << element << ' ';
     ```
     output : 
     ```
-    4 3 2 1 0
+    0 1 2 3 4 5
+    ```
+  - #### Merging two lists as they are
+    ```cpp
+    list <int> l3 = {0, 2, 4}, l4 = {1, 3, 5};
+    l3.splice(l3.begin(), l4);
+    for(auto element : l3)
+        cout << element << ' ';
+
+    list <int> l5 = {0, 2, 4}, l6 = {1, 3, 5};
+    l5.splice(l5.end(), l6);
+    for(auto element : l5)
+        cout << element << ' ';
+    ```
+    output : 
+    ```
+    1 3 5 0 2 4
+    0 2 4 1 3 5
     ```
 ### Properties :
   - **Storing order** – The set stores the elements in sorted order.
@@ -111,4 +108,4 @@
   - Deletion of Elements $O(log N)$
 ----
 ### Related Articles :
-  - [Multiset](https://www.geeksforgeeks.org/multiset-in-cpp-stl/)
+  - [forward_list](https://cplusplus.com/reference/forward_list/forward_list/)
