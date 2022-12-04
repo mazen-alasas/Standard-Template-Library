@@ -73,7 +73,7 @@
         cout << v4[i] << ' ';
     // or
     for(auto element : v4)
-        cout << element << ' ';
+        cout << element << ' '; 
     ```
     output : 
     ```
