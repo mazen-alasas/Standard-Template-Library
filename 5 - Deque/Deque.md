@@ -6,10 +6,10 @@
 ```
 
 ### Syntax 
-    ```cpp
-    // deque <DataType> dequeName;
-    deque <int> d = {1,2,3,4,5};
-    ```
+```cpp
+// deque <DataType> dequeName;
+deque <int> d = {1,2,3,4,5};
+```
   
 ### Deque Functions :
   - Iterators :
