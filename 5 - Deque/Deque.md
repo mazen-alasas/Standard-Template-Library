@@ -65,58 +65,9 @@
   ```
   output : 
   ```
-  10 20 30 40 50 60 
-  10 20 30 40 50 60 
+  1 2 3 4 5
+  1 2 3 4 5
   ```
-### Vector uses :
-  - #### Swap two vector
-    ```cpp
-    vector <int> v1(4,3), v2(7,2); /// v1 = {3,3,3,3}
-                                   /// v2 = {2,2,2,2,2,2,2}
-    swap(v1,v2);
-    cout << "vector 1 : ";
-    for(int i = 0; i < v1.size(); i++)
-        cout << v1[i] << ' ';
-    cout << "vector 2 : ";
-    for(int i = 0; i < v2.size(); i++)
-        cout << v2[i] << ' ';
-    ```
-    output : 
-    ```
-    vector 1 : 2 2 2 2 2 2 2
-    vector 2 : 3 3 3 3
-    ```
-  - #### Sort
-    ```cpp
-    vector <int> v{1, 5, 8, 9, 6, 7, 3, 0};
-    sort(v.begin(),v.end());
-    for(auto element : v)
-        cout << element << ' ';
-    ```
-    output : 
-    ```
-    0 1 3 5 6 7 8 9
-    ```    
-  - #### Reverse
-    ```cpp
-    reverse(v.begin(), v.end());
-    for(auto element : v)
-        cout << element << ' ';
-    ```
-    output : 
-    ```
-    9 8 7 6 5 3 1 0
-    ```
-  - #### Max & Min element
-    ```cpp
-    cout << *min_element(v.begin(),v.end());
-    cout << *max_element(v.begin(),v.end()); 
-    ```
-    output : 
-    ```
-    1
-    9
-    ```
 ### Properties :
   - Accessing Elements $O(1)$
   - Insertion or removal of elements $O(N)$
