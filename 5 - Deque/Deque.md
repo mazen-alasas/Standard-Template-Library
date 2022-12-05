@@ -36,61 +36,38 @@
     - [clear()](https://www.geeksforgeeks.org/dequeclear-dequeerase-c-stl/) Clear content
     - [emplase()](https://www.javatpoint.com/post/cpp-deque-emplace-function) Construct and insert element  
 
-### Initialize a vector
+### Initialize a Deque
   ```cpp
-  vector <int> v;
-  v.push_back(5);
-  v.push_back(3);
-  v.push_back(2);
-  v.push_back(7);
-  v.push_back(1);
-  // or
-  vector <int> v1(5);
-  for(int i = 0; i < 5; i++)
-      cin >> v1[i];
+  deque <int> d1 = {1,2,3,4,5};
+  d1.push_back(6); 
+  d1.push_front(0); 
   // or
   int a;
-  vector <int> v2;
+  deque <int> d2;
   for(int i = 0; i < 5; i++){
       cin >> a;
-      v2.push_back(a);
+      d2.push_back(a);
   }
   // or
   int b;
-  vector <int> v3;
+  deque <int> d3;
   while(cin >> b)
-     v3.push_back(b);
+      d3.push_back(b);
   ```
-### Print elements of Vector
-  - #### 1d Vector
-    ```cpp
-    vector <int> v4 = { 10, 20, 30, 40, 50, 60 };
-    for(int i = 0; i < 5; i++)
-        cout << v4[i] << ' ';
-    // or
-    for(auto element : v4)
-        cout << element << ' '; 
-    ```
-    output : 
-    ```
-    10 20 30 40 50 60 
-    10 20 30 40 50 60 
-    ```
-  - #### 2d Vector
-    ```cpp
-    vector <vector<int>> v { {1, 2},{4, 5, 6},{7, 8, 9, 10} };
-    for(int i = 0; i < v.size(); i++) {
-      for(int j = 0; j < v[i].size(); j++)
-        cout << v[i][j] << " ";
-      cout << endl;
-    }
-     ```
-    output : 
-    ```
-    1 2
-    4 5 6
-    7 8 9 10
-    ```
+### Print elements of Deque
+  ```cpp
+  deque <int> d = {1,2,3,4,5};
+  for(auto t = d.begin(); t != d.end(); t++)
+      cout << *t << ' '; 
+  // or
+  for(auto element : d)
+      cout << element << ' '; 
+  ```
+  output : 
+  ```
+  10 20 30 40 50 60 
+  10 20 30 40 50 60 
+  ```
 ### Vector uses :
   - #### Swap two vector
     ```cpp
