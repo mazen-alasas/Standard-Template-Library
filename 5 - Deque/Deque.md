@@ -13,11 +13,11 @@ deque <int> d = {1,2,3,4,5};
   
 ### Deque Functions :
   - Iterators :
-    - [begin()](https://www.javatpoint.com/post/cpp-deque-begin-function) Returns an iterator to the first element in the vector
-    - [end()](https://www.javatpoint.com/post/cpp-deque-end-function) Returns an iterator to the last element in the vector
+    - [begin()](https://www.javatpoint.com/post/cpp-deque-begin-function) Returns an iterator to the first element
+    - [end()](https://www.javatpoint.com/post/cpp-deque-end-function) Returns an iterator to the last element
   - Capacity :
-    - [size()](https://cplusplus.com/reference/deque/deque/size/) Returns the number of elements in the vector
-    - [max_size()](https://www.geeksforgeeks.org/deque-max_size-function-in-c-stl/) Returns the maximum number of elements that the vector can hold
+    - [size()](https://cplusplus.com/reference/deque/deque/size/) Returns the number of elements
+    - [max_size()](https://www.geeksforgeeks.org/deque-max_size-function-in-c-stl/) Returns the maximum number of elements that the deque can hold
     - [resize()](https://cplusplus.com/reference/deque/deque/resize/) Change size
     - [empty()](https://cplusplus.com/reference/deque/deque/empty/) return 1 if vector is empty else return 0
   - Element access :
@@ -25,7 +25,7 @@ deque <int> d = {1,2,3,4,5};
     - [front()](https://en.cppreference.com/w/cpp/container/deque/front) Access first element
     - [back()](https://www.javatpoint.com/post/cpp-deque-back-function) Access last element
   - Modifiers :
-    - [assign()](https://www.javatpoint.com/post/cpp-deque-assign-function) Assign vector content
+    - [assign()](https://www.javatpoint.com/post/cpp-deque-assign-function) Assign deque content
     - [push_back()](https://cplusplus.com/reference/deque/deque/push_back/) Add element at the end
     - [pop_back()](https://www.geeksforgeeks.org/dequepop_front-dequepop_back-c-stl/) Delete last element
     - [push_front()](https://www.javatpoint.com/post/cpp-deque-push_front-function) Add element at the end
