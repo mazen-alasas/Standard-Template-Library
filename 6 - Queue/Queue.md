@@ -1,5 +1,4 @@
-# **Dueue** is a type of container adaptors that operate in a first in first out (FIFO) type of arrangement.
-Elements are inserted at the back (end) and are deleted from the front
+# **Dueue** is a type of container adaptors that operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front
 
 ### First import Queue Library
 ```cpp
@@ -8,27 +7,22 @@ Elements are inserted at the back (end) and are deleted from the front
 
 ### Syntax 
   ```cpp
-  // set <DataType> setName;
-  set <int> s = {7, 1, 9, 5, 2, 4};
+  // queue <DataType> queueName;
+  queue <int> q = {7, 1, 9, 5, 2, 4};
   ```
   
 ### Set Functions :
-  - Iterators :
-    - [begin()](https://www.javatpoint.com/cpp-set-begin-function) Returns an iterator to the first element in the set
-    - [end()](https://www.javatpoint.com/cpp-set-end-function) Returns an iterator to the last element in the set
+  - Element access :
+    - [front()](https://cplusplus.com/reference/queue/queue/front/) Access the first element
+    - [back()](https://www.geeksforgeeks.org/queuefront-queueback-c-stl/) Access the last element
   - Capacity :
-    - [size()](https://www.geeksforgeeks.org/setsize-c-stl/) Returns the number of elements in the set
-    - [max_size()](https://www.geeksforgeeks.org/set-max_size-function-in-c-stl/) Returns the maximum number of elements that the set can hold
-    - [empty()](https://www.geeksforgeeks.org/setempty-c-stl/) return 1 if set is empty else return 0
+    - [size()](https://en.cppreference.com/w/cpp/container/queue/size) Returns the number of elements
+    - [empty()](https://cplusplus.com/reference/queue/queue/empty/) return 1 if set is empty else return 0
   - Modifiers :
-    - [insert()](https://cplusplus.com/reference/set/set/insert/)   Insert elements
-    - [erase()](https://cplusplus.com/reference/set/set/erase/)   Erase elements
-    - [swap()](https://www.javatpoint.com/cpp-set-swap-function)   Swap content
-    - [clear()](https://www.geeksforgeeks.org/setclear-c-stl/)   Clear content
-    - [emplase()](https://www.geeksforgeeks.org/setemplace-c-stl/)   Construct and insert element  
-  - Operations :
-    - [find()](https://www.geeksforgeeks.org/multiset-count-function-in-c-stl/) Search for an element with given element
-    - [count()](https://cplusplus.com/reference/set/set/count/) Gets the number of elements matching with given element
+    - [push()](https://www.javatpoint.com/cpp-queue-push-function) Inserts element at the end
+    - [pop()](https://cplusplus.com/reference/queue/queue/pop/) Removes the first element
+    - [swap()](https://www.geeksforgeeks.org/queue-swap-cpp-stl/) Swap content   
+    - [emplase()](https://www.javatpoint.com/cpp-queue-emplace-function) Construct and insert element
 
 ### Initialize a Set
   ```cpp
