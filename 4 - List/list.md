@@ -46,8 +46,8 @@
   l.push_back(4);
   l.push_front(1);
   // or
-  list<int>l3;
-  l3.assign({5,4,8,7});
+  list <int> l3;
+  l3.assign({5, 4, 8, 7});
   // or
   int a;
   list <int> l4;;
@@ -70,7 +70,7 @@
   4 5 8 6 3 1
   4 5 8 6 3 1
   ```
-### Set uses :
+### List uses :
   - #### Merging (Sorted)
     ```cpp
     list <int> l1 = {0, 2, 4}, l2 = {1, 3, 5};
