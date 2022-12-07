@@ -94,10 +94,10 @@
     4 3 2 1 0
     ```
 ### Properties :
-  - **Storing order** – The set stores the elements in sorted order.
-  - **Values Characteristics** – All the elements in a set have unique values.
-  - **Search Technique** – Sets follow the Binary search tree implementation.
-  - **Arranging order** – The values in a set are **unindexed**.
+  - **Storing order** The set stores the elements in sorted order.
+  - **Values Characteristics** All the elements in a set have unique values.
+  - **Search Technique** Sets follow the Binary search tree implementation.
+  - **Arranging order** The values in a set are **unindexed**.
   - Insertion of Elements $O(log N)$
   - Deletion of Elements $O(log N)$
 ----
