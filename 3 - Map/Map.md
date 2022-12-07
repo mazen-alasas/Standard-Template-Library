@@ -115,8 +115,8 @@
     9 -> 1
     ```
 ### Properties :
-  - **Storing order** – The map stores the elements in ascending order by $keys$.
-  - All the elements in a map have **unique keys**.
+  - **Storing order** The map stores the elements in ascending order by $keys$
+  - All the elements in a map have **unique keys**
   - Insertion of Elements $O(log N)$
   - Deletion of Elements $O(log N)$
 ----
