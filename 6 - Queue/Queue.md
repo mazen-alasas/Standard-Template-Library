@@ -11,7 +11,7 @@
   queue <int> q = {7, 1, 9, 5, 2, 4};
   ```
   
-### Set Functions :
+### Queue Functions : fix it
   - Element access :
     - [front()](https://cplusplus.com/reference/queue/queue/front/) Access the first element
     - [back()](https://www.geeksforgeeks.org/queuefront-queueback-c-stl/) Access the last element
@@ -24,80 +24,23 @@
     - [swap()](https://www.geeksforgeeks.org/queue-swap-cpp-stl/) Swap content   
     - [emplase()](https://www.javatpoint.com/cpp-queue-emplace-function) Construct and insert element
 
-### Initialize a Set
+### Initialize a Queue
   ```cpp
-  set <int> s1;
-  s1.insert(5);
-  s1.insert(3);
-  s1.insert(2);
-  s1.insert(1);
-  // or
-  int a;
-  set <int> s2;
-  for(int i = 0; i < 5; i++){
-      cin >> a;
-      s2.insert(a);
-  }
-  // or
-  int b;
-  set <int> s3;
-  while(cin >> b)
-     s3.insert(b);
+  
   ```
-### Print elements of Set
+### Print elements of Queue
   ```cpp
-  set <int> s;
-  for(int i = 0; i < 5; i++)
-      s.insert(i);
-
-  for(auto it = s.begin(); it != s.end(); it++)
-      cout << *it << ' ';
-  // or
-  for(auto element : s)
-      cout << element << ' ';
-  ```
-  output : 
-  ```
-  0 1 2 3 4 
-  0 1 2 3 4 
+  
   ```
 ### Set uses :
-  - #### Max & Min element
-    ```cpp
-    // it's already sorted ( ascending order )
-    set <int> s;
-    for(int i = 0; i < 5; i++)
-      s.insert(i);
-    cout << *s.begin();
-    auto it = s.end();
-    *it--;
-    cout << *it;
-    ```
-    output : 
-    ```
-    0
-    4
-    ```
-  - #### Descending order
-    ```cpp
-    set <int,greater<int>> s1{0, 1, 2, 3, 4};
-    for(auto element : s1)
-        cout << element << ' ';
-    ```
-    output : 
-    ```
-    4 3 2 1 0
-    ```
+  - 
+
 ### Properties :
-  - **Storing order** – The set stores the elements in sorted order.
-  - **Values Characteristics** – All the elements in a set have unique values.
-  - **Search Technique** – Sets follow the Binary search tree implementation.
-  - **Arranging order** – The values in a set are **unindexed**.
-  - Insertion of Elements $O(log N)$
-  - Deletion of Elements $O(log N)$
+  -
+ 
 ----
 ### Related Articles :
-  - [Multiset](https://www.geeksforgeeks.org/multiset-in-cpp-stl/)
+  - 
 
 
 
