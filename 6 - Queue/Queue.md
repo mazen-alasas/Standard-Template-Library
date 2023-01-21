@@ -26,21 +26,36 @@
 
 ### Initialize a Queue
   ```cpp
-  
+  queue <int> q1;    >>> FIFO
+  q1.push(5);
+  q1.push(4);
+  q1.push(3);
+  // or
+  int a;
+  queue <int> q2;
+  for(int i = 0; i < 5; i++){
+      cin >> a;
+      d2.push(a);
+  }
+  // or
+  int b;
+  queue <int> q3;
+  while(cin >> b)
+      q3.push(b);
   ```
 ### Print elements of Queue
   ```cpp
-  
+  while (!q1.empty()) {
+      cout << q1.front() << ' ';
+      q1.pop();
+  }
   ```
-### Set uses :
-  - 
-
+output :
+  ```
+  5 4 3
+  ```
 ### Properties :
-  -
- 
-----
+  - Insertion or removal of elements $O(1)$
+  
 ### Related Articles :
-  - 
-
-
-
+  - [Priority Queue](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
