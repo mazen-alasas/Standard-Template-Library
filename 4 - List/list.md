@@ -17,7 +17,7 @@
     - [end()](https://en.cppreference.com/w/cpp/container/list/end) Returns an iterator to the end
   - Capacity :
     - [size()](https://www.javatpoint.com/post/cpp-list-max_size-function) Returns the number of elements
-    - [max_size()](https://www.geeksforgeeks.org/set-max_size-function-in-c-stl/) Returns the maximum possible number of elements that the list can hold
+    - [max_size()](https://www.geeksforgeeks.org/list-max_size-function-in-c-stl/) Returns the maximum possible number of elements that the list can hold
     - [empty()](https://www.javatpoint.com/post/cpp-list-empty-function) return 1 if list is empty else return 0
   - Modifiers :
     - [insert()](https://en.cppreference.com/w/cpp/container/list/insert) Insert elements
@@ -31,12 +31,6 @@
     - [erase()](https://en.cppreference.com/w/cpp/container/list/erase) Erase single element by given iterator
     - [remove()](https://www.geeksforgeeks.org/list-remove-function-in-c-stl/) Removes all the elements from the list, which are equal to given element
     - [clear()](https://www.geeksforgeeks.org/listclear-c-stl/) Clears the contents
-
-
-
-  - Operations :
-    - [find()](https://www.geeksforgeeks.org/multiset-count-function-in-c-stl/) Search for an element with given element
-    - [count()](https://cplusplus.com/reference/set/set/count/) Gets the number of elements matching with given element
 
 ### Initialize a List
   ```cpp
