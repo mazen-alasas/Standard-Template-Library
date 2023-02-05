@@ -12,22 +12,20 @@
   ```
   
 ### Set Functions :
-  - Iterators :
-    - [begin()](https://www.javatpoint.com/cpp-set-begin-function) Returns an iterator to the first element in the set
-    - [end()](https://www.javatpoint.com/cpp-set-end-function) Returns an iterator to the last element in the set
-  - Capacity :
-    - [size()](https://www.geeksforgeeks.org/setsize-c-stl/) Returns the number of elements in the set
-    - [max_size()](https://www.geeksforgeeks.org/set-max_size-function-in-c-stl/) Returns the maximum number of elements that the set can hold
-    - [empty()](https://www.geeksforgeeks.org/setempty-c-stl/) return 1 if set is empty else return 0
-  - Modifiers :
-    - [insert()](https://cplusplus.com/reference/set/set/insert/)   Insert elements
-    - [erase()](https://cplusplus.com/reference/set/set/erase/)   Erase elements
-    - [swap()](https://www.javatpoint.com/cpp-set-swap-function)   Swap content
-    - [clear()](https://www.geeksforgeeks.org/setclear-c-stl/)   Clear content
-    - [emplase()](https://www.geeksforgeeks.org/setemplace-c-stl/)   Construct and insert element  
-  - Operations :
-    - [find()](https://www.geeksforgeeks.org/multiset-count-function-in-c-stl/) Search for an element with given element
-    - [count()](https://cplusplus.com/reference/set/set/count/) Gets the number of elements matching with given element
+| Function Name | Time Complexity | what does it do?! |
+|--------------|:-----------------:|----------------------|
+|[begin()](https://www.javatpoint.com/cpp-set-begin-function) | `O(1)` | Returns an iterator to the first element in the set |
+|[end()](https://www.javatpoint.com/cpp-set-end-function) | `O(1)` | Returns an iterator to the last element in the set |
+|[size()](https://www.geeksforgeeks.org/setsize-c-stl/) | `O(1)` | Returns the number of elements in the set |
+|[max_size()](https://www.geeksforgeeks.org/set-max_size-function-in-c-stl/) | `O(1)` | Returns the maximum number of elements that the set can hold |
+|[empty()](https://www.geeksforgeeks.org/setempty-c-stl/) | `O(1)` | Return 1 if set is empty else return 0 |
+|[insert()](https://cplusplus.com/reference/set/set/insert/) | `O(log(n))` | Insert elements |
+|[erase()](https://cplusplus.com/reference/set/set/erase/) | `O(n)` | Erase elements |
+|[swap()](https://www.javatpoint.com/cpp-set-swap-function) | `O(1)` |  Swap content |
+|[clear()](https://www.geeksforgeeks.org/setclear-c-stl/) | `O(n)` | Clear content |
+|[emplase()](https://www.geeksforgeeks.org/setemplace-c-stl/) | `O(log(n))` |  Construct and insert element |
+|[find()](https://www.geeksforgeeks.org/multiset-count-function-in-c-stl/) | `O(log(n))` | Search for an element with given element |
+|[count()](https://cplusplus.com/reference/set/set/count/) | `O(log(n))` | Gets the number of elements matching with given element |
 
 ### Initialize a Set
   ```cpp
