@@ -2,12 +2,14 @@
 
 ### First import Stack Library
 ```cpp
-#include <stack>
+// stack <DataType> StackName;
+#include <stack> s;
 ```
 
 ### Syntax 
   ```cpp
   
+  stack <int> s;
   ```
   
 ### Stack Functions :
