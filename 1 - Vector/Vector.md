@@ -19,26 +19,24 @@
     ```
   
 ### Vector Functions :
-  - Iterators :
-    - [begin()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/)   Returns an iterator to the first element in the vector
-    - [end()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/)   Returns an iterator to the last element in the vector
-  - Capacity :
-    - [size()](https://cplusplus.com/reference/vector/vector/size/)   Returns the number of elements in the vector
-    - [max_size()](https://www.geeksforgeeks.org/vector-max_size-function-in-c-stl/)   Returns the maximum number of elements that the vector can hold
-    - [empty()](https://cplusplus.com/reference/vector/vector/empty/)   return 1 if vector is empty else return 0
-  - Element access :
-    - [at()](https://www.javatpoint.com/cpp-vector-at-function)  Access element
-    - [front()](https://www.javatpoint.com/cpp-vector-front-function)   Access first element
-    - [back()](https://www.javatpoint.com/cpp-vector-back-function)   Access last element
-  - Modifiers :
-    - [assign()](https://www.geeksforgeeks.org/vector-assign-in-c-stl/)   Assign vector content
-    - [push_back()](https://cplusplus.com/reference/vector/vector/push_back/)   Add element at the end
-    - [pop_back()](https://www.javatpoint.com/cpp-vector-pop-back-function)   Delete last element
-    - [insert()](https://www.javatpoint.com/cpp-vector-insert-function)   Insert elements
-    - [erase()](https://cplusplus.com/reference/vector/vector/erase/)   Erase elements
-    - [swap()](https://www.geeksforgeeks.org/vectorat-vectorswap-c-stl/)   Swap content
-    - [clear()](https://www.geeksforgeeks.org/vector-erase-and-clear-in-cpp/)   Clear content
-    - [emplase()](https://cplusplus.com/reference/vector/vector/emplace/)   Construct and insert element  
+| Function Name | Time Complexity | what does it do?! |
+|--------------|:-----------------:|----------------------|
+|[begin()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/) | `O(1)` | Returns an iterator to the first element in the vector |
+|[end()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/) | `O(1)` | Returns an iterator to the last element in the vector |
+|[size()](https://cplusplus.com/reference/vector/vector/size/) | `O(1)` | Returns the number of elements in the vector |
+|[max_size()](https://www.geeksforgeeks.org/vector-max_size-function-in-c-stl/) | `O(1)` |  Returns the maximum number of elements that can hold |
+|[empty()](https://cplusplus.com/reference/vector/vector/empty/) | `O(1)` | return 1 if vector is empty else return 0 |
+|[at()](https://www.javatpoint.com/cpp-vector-at-function) | `O(1)` | Access element |
+|[front()](https://www.javatpoint.com/cpp-vector-front-function) | `O(1)` |  Access first element |
+|[back()](https://www.javatpoint.com/cpp-vector-back-function)  | `O(1)` | Access last element |
+|[assign()](https://www.geeksforgeeks.org/vector-assign-in-c-stl/) | `O(n)` |  Assign vector content | 
+|[push_back()](https://cplusplus.com/reference/vector/vector/push_back/) | `O(1)` |  Add element at the end |
+|[pop_back()](https://www.javatpoint.com/cpp-vector-pop-back-function) | `O(1)` |  Delete last element |
+|[insert()](https://www.javatpoint.com/cpp-vector-insert-function) | `O(n)` | Insert elements |
+|[erase()](https://cplusplus.com/reference/vector/vector/erase/) | `O(n)` | Erase elements |
+|[swap()](https://www.geeksforgeeks.org/vectorat-vectorswap-c-stl/) | `O(1)` |  Swap content |
+|[clear()](https://www.geeksforgeeks.org/vector-erase-and-clear-in-cpp/) | `O(n)` | Clear content |
+|[emplase()](https://cplusplus.com/reference/vector/vector/emplace/) | `O(n)` |  Construct and insert element |
 
 ### Initialize a vector
   ```cpp
