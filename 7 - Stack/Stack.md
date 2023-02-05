@@ -1,4 +1,4 @@
-# **Stack** is a ..
+# **Stack** is a type of container adaptors with LIFO(Last In First Out) type of working, where a new element is added at one end (top) and an element is removed from that end only.
 
 ### First import Stack Library
 ```cpp
@@ -10,38 +10,44 @@
   
   ```
   
-### Set Functions :
-  - Iterators :
-    - [begin()](https://www.javatpoint.com/cpp-set-begin-function) Returns an iterator to the first element in the set
-    - [end()](https://www.javatpoint.com/cpp-set-end-function) Returns an iterator to the last element in the set
-  - Capacity :
-    - [size()](https://www.geeksforgeeks.org/setsize-c-stl/) Returns the number of elements in the set
-    - [max_size()](https://www.geeksforgeeks.org/set-max_size-function-in-c-stl/) Returns the maximum number of elements that the set can hold
-    - [empty()](https://www.geeksforgeeks.org/setempty-c-stl/) return 1 if set is empty else return 0
-  - Modifiers :
-    - [insert()](https://cplusplus.com/reference/set/set/insert/)   Insert elements
-    - [erase()](https://cplusplus.com/reference/set/set/erase/)   Erase elements
-    - [swap()](https://www.javatpoint.com/cpp-set-swap-function)   Swap content
-    - [clear()](https://www.geeksforgeeks.org/setclear-c-stl/)   Clear content
-    - [emplase()](https://www.geeksforgeeks.org/setemplace-c-stl/)   Construct and insert element  
-  - Operations :
-    - [find()](https://www.geeksforgeeks.org/multiset-count-function-in-c-stl/) Search for an element with given element
-    - [count()](https://cplusplus.com/reference/set/set/count/) Gets the number of elements matching with given element
-
-### Initialize a Set
+### Stack Functions :
+| Function Name | Time Complexity | what does it do?! |
+|--------------|:-----------------:|----------------------|
+| [push( )](https://en.cppreference.com/w/cpp/container/stack/push) |`O(1)` | Insert element at the top of stack |
+| [pop( )](https://www.javatpoint.com/cpp-stack-pop-function) | `O(1)` | Removes element from top of stack|
+| [top( )](https://www.geeksforgeeks.org/stack-top-c-stl/) |  `O(1)` | Access the top element of stack|
+| [empty( )](https://www.javatpoint.com/cpp-stack-empty-function) |`O(1)`| Checks if the stack is empty or not|
+| [size( )](https://en.cppreference.com/w/cpp/container/stack/size) |`O(1)`| Returns the size of stack|
+| [emplace( )](https://www.geeksforgeeks.org/stack-emplace-in-c-stl/) | `O(1)` | Construct and insert element |
+| [swap( )](https://en.cppreference.com/w/cpp/container/stack/swap) | `O(1)` | Swap contents |
+### Initialize a Stack
   ```cpp
-  
+  stack <int> s1;
+  s1.push(1);
+  s1.push(2);
+  s1.push(3);
+  s1.push(4);
+  // or
+  int a;
+  stack <int> s2;;
+  for(int i = 0; i < 5; i++){
+      cin >> a;
+      s2.push(a);
+  }
   ```
-### Print elements of Set
+### Print elements of Stack
   ```cpp
-  
+  while (!s1.empty()) {
+      cout << s1.top() << ' ';
+      s1.pop();
+  }
   ```
   output : 
   ```
-  
+  4 3 2 1
   ```
-### Set uses :
-  - #### Max & Min element
+### Stack uses :
+  - #### BLABLABLAA
     ```cpp
     
     ```
@@ -49,19 +55,4 @@
     ```
     
     ```
-  - #### Descending order
-    ```cpp
-    
     ```
-    output : 
-    ```
-    
-    ```
-### Properties :
-  - 
-----
-### Related Articles :
-  - []()
-
-
-
