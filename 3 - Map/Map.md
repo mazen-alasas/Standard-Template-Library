@@ -12,29 +12,21 @@
   ```
   
 ### Map Functions
-  - Iterators :
-    - [begin()](https://www.javatpoint.com/post/cpp-map-begin-function) Returns an iterator to the first element of the map
-    - [end()](https://www.javatpoint.com/post/cpp-map-end-function) Return an iterator which is next to the last entry in the map
-  - Capacity :
-    - [size()](https://www.javatpoint.com/post/cpp-map-size-function) Returns the number of elements in the map
-    - [max_size()](https://www.geeksforgeeks.org/map-max_size-in-c-stl/) Returns the maximum number of elements that the map can hold
-    - [empty()](https://www.geeksforgeeks.org/mapempty-c-stl/) Returns 1 if map is empty
-  - Element Access :
-    - [at()](https://www.javatpoint.com/post/cpp-map-at-function) Retrieve the element with given key
-  - Modifiers :
-    - [insert()](https://www.javatpoint.com/post/cpp-map-insert-function) Insert element
-    - [erase()](https://www.geeksforgeeks.org/map-erase-function-in-c-stl/) Erase element
-    - [swap()](https://www.javatpoint.com/post/cpp-map-swap-function) Swap content
-    - [clear()](https://www.geeksforgeeks.org/mapclear-c-stl/) Delete all the elements of the map
-    - [emplase()](https://www.javatpoint.com/post/cpp-map-emplace-function) Construct and insert the new elements into the map  
-  - Operations :
-    - [find()](https://www.geeksforgeeks.org/map-find-function-in-c-stl/) Search for an element with given Key
-    - [count()](https://www.geeksforgeeks.org/map-count-function-in-c-stl/) Returns 1 if the element with given Key is present in the map
-
-
-
-
-
+| Function Name | Time Complexity | what does it do?! |
+|--------------|:-----------------:|----------------------|
+|[begin()](https://www.javatpoint.com/post/cpp-map-begin-function) | `O(1)` | Returns an iterator to the first element of the map|
+|[end()](https://www.javatpoint.com/post/cpp-map-end-function) | `O(1)` | Return an iterator which is next to the last entry in the map|
+|[size()](https://www.javatpoint.com/post/cpp-map-size-function) | `O(1)` | Returns the number of elements in the map|
+|[max_size()](https://www.geeksforgeeks.org/map-max_size-in-c-stl/) | `O(1)` | Returns the maximum number of elements that the map can hold|
+|[empty()](https://www.geeksforgeeks.org/mapempty-c-stl/) | `O(1)` | Returns 1 if map is empty|
+|[at()](https://www.javatpoint.com/post/cpp-map-at-function) | `O(log(n))` | Retrieve the element with given key|
+|[insert()](https://www.javatpoint.com/post/cpp-map-insert-function) | `O(log(n))` | Insert element|
+|[erase()](https://www.geeksforgeeks.org/map-erase-function-in-c-stl/) | `O(log(n))` | Erase element|
+|[swap()](https://www.javatpoint.com/post/cpp-map-swap-function) | `O(1)` | Swap content|
+|[clear()](https://www.geeksforgeeks.org/mapclear-c-stl/) | `O(n)` | Delete all the elements of the map|
+|[emplase()](https://www.javatpoint.com/post/cpp-map-emplace-function) | `O(log(n))` | Construct and insert the new elements into the map  |
+|[find()](https://www.geeksforgeeks.org/map-find-function-in-c-stl/) | `O(log(n))` | Search for an element with given Key|
+|[count()](https://www.geeksforgeeks.org/map-count-function-in-c-stl/) | `O(log(n))` | Returns 1 if the element with given Key is present in the map|
 
 ### Initialize map
   ```cpp
