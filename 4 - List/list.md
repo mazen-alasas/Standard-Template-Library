@@ -12,25 +12,24 @@
   ```
   
 ### List Functions :
-  - Iterators :
-    - [begin()](https://en.cppreference.com/w/cpp/container/list/begin) Returns an iterator to the beginning
-    - [end()](https://en.cppreference.com/w/cpp/container/list/end) Returns an iterator to the end
-  - Capacity :
-    - [size()](https://www.javatpoint.com/post/cpp-list-max_size-function) Returns the number of elements
-    - [max_size()](https://www.geeksforgeeks.org/list-max_size-function-in-c-stl/) Returns the maximum possible number of elements that the list can hold
-    - [empty()](https://www.javatpoint.com/post/cpp-list-empty-function) return 1 if list is empty else return 0
-  - Modifiers :
-    - [insert()](https://en.cppreference.com/w/cpp/container/list/insert) Insert elements
-    - [emplase()](https://www.geeksforgeeks.org/list-emplace-function-in-c-stl/) Construct and insert element  
-    - [push_back()](https://www.geeksforgeeks.org/list-push_back-function-in-c-stl/) Add a new element at the end
-    - [pop_back()](https://www.geeksforgeeks.org/list-pop_back-function-in-c-stl/) Delete the last element
-    - [push_front()](https://www.geeksforgeeks.org/list-push_front-function-in-c-stl/) Add a new element to the front
-    - [pop_front()](https://www.geeksforgeeks.org/list-pop_front-function-in-c-stl/) Delete the first element
-    - [resize()](https://www.javatpoint.com/post/cpp-list-resize-function) It changes the size of the list
-    - [swap()](https://www.geeksforgeeks.org/listswap-c-stl/) Swap contents
-    - [erase()](https://en.cppreference.com/w/cpp/container/list/erase) Erase single element by given iterator
-    - [remove()](https://www.geeksforgeeks.org/list-remove-function-in-c-stl/) Removes all the elements from the list, which are equal to given element
-    - [clear()](https://www.geeksforgeeks.org/listclear-c-stl/) Clears the contents
+ | Function Name | Time Complexity | what does it do?! |
+|--------------|:-----------------:|----------------------|
+|[begin()](https://en.cppreference.com/w/cpp/container/list/begin) | `O(1)` | Returns an iterator to the beginning |
+|[end()](https://en.cppreference.com/w/cpp/container/list/end) | `O(1)` | Returns an iterator to the end |
+|[size()](https://www.javatpoint.com/post/cpp-list-max_size-function) | `O(1)` | Returns the number of elements |
+|[max_size()](https://www.geeksforgeeks.org/list-max_size-function-in-c-stl/) | `O(1)` | Returns the maximum possible number of elements that the list can hold |
+|[empty()](https://www.javatpoint.com/post/cpp-list-empty-function) | `O(1)` | Return 1 if list is empty else return 0 |
+|[insert()](https://en.cppreference.com/w/cpp/container/list/insert) | `O(n)` | Insert elements |
+|[emplase()](https://www.geeksforgeeks.org/list-emplace-function-in-c-stl/) | `O(1)` | Construct and insert element |
+|[push_back()](https://www.geeksforgeeks.org/list-push_back-function-in-c-stl/) | `O(1)` | Add a new element at the end |
+|[pop_back()](https://www.geeksforgeeks.org/list-pop_back-function-in-c-stl/) | `O(1)` | Delete the last element |
+|[push_front()](https://www.geeksforgeeks.org/list-push_front-function-in-c-stl/) | `O(1)` | Add a new element to the front |
+|[pop_front()](https://www.geeksforgeeks.org/list-pop_front-function-in-c-stl/) | `O(1)` | Delete the first element |
+|[resize()](https://www.javatpoint.com/post/cpp-list-resize-function) | `O(n)` | It changes the size of the list |
+|[swap()](https://www.geeksforgeeks.org/listswap-c-stl/) | `O(1)` | Swap contents |
+|[erase()](https://en.cppreference.com/w/cpp/container/list/erase) | `O(n)` | Erase single element by given iterator |
+|[remove()](https://www.geeksforgeeks.org/list-remove-function-in-c-stl/) | `O(n)` | Removes all the elements from the list, which are equal to given element |
+|[clear()](https://www.geeksforgeeks.org/listclear-c-stl/) | `O(n)` | Clears the contents |
 
 ### Initialize a List
   ```cpp
