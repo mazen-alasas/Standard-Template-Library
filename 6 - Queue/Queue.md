@@ -12,17 +12,16 @@
   ```
   
 ### Queue Functions : fix it
-  - Element access :
-    - [front()](https://cplusplus.com/reference/queue/queue/front/) Access the first element
-    - [back()](https://www.geeksforgeeks.org/queuefront-queueback-c-stl/) Access the last element
-  - Capacity :
-    - [size()](https://en.cppreference.com/w/cpp/container/queue/size) Returns the number of elements
-    - [empty()](https://cplusplus.com/reference/queue/queue/empty/) return 1 if set is empty else return 0
-  - Modifiers :
-    - [push()](https://www.javatpoint.com/cpp-queue-push-function) Inserts element at the end
-    - [pop()](https://cplusplus.com/reference/queue/queue/pop/) Removes the first element
-    - [swap()](https://www.geeksforgeeks.org/queue-swap-cpp-stl/) Swap content   
-    - [emplase()](https://www.javatpoint.com/cpp-queue-emplace-function) Construct and insert element
+| Function Name | Time Complexity | what does it do?! |
+|--------------|:-----------------:|----------------------|
+|[front()](https://cplusplus.com/reference/queue/queue/front/) | `O(1)` | Access the first element|
+|[back()](https://www.geeksforgeeks.org/queuefront-queueback-c-stl/) | `O(1)` | Access the last element|
+|[size()](https://en.cppreference.com/w/cpp/container/queue/size) | `O(1)` | Returns the number of elements|
+|[empty()](https://cplusplus.com/reference/queue/queue/empty/) | `O(1)` | Return 1 if set is empty else return 0|
+|[push()](https://www.javatpoint.com/cpp-queue-push-function) | `O(1)` | Inserts element at the end|
+|[pop()](https://cplusplus.com/reference/queue/queue/pop/) | `O(1)` | Removes the first element|
+|[swap()](https://www.geeksforgeeks.org/queue-swap-cpp-stl/) | `O(1)` | Swap content   |
+|[emplase()](https://www.javatpoint.com/cpp-queue-emplace-function) | `O(1)` | Construct and insert element|
 
 ### Initialize a Queue
   ```cpp
