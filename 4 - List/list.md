@@ -93,6 +93,13 @@
     0 2 4 1 3 5
     ```
     
+### Use for
+  - Insertion into the middle/beginning of the list
+  - Efficient sorting (pointer swap vs. copying)
+
+### Do not use for
+  - Direct access
+
 ----
 ### Related Articles :
   - ### [forward_list](https://cplusplus.com/reference/forward_list/forward_list/)
