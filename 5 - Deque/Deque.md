@@ -66,10 +66,6 @@ deque <int> d = {1,2,3,4,5};
   1 2 3 4 5
   1 2 3 4 5
   ```
-### Properties :
-  - Accessing Elements $O(1)$
-  - Insertion or removal of elements $O(N)$
-  - Insertion or removal of elements at start or end $O(1)$
 
 ### Use for
   - Similar purpose of `std::vector`
