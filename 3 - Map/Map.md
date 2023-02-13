@@ -115,3 +115,6 @@
 ### Related Articles :
   - [Multimap](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/?ref=rp)
   - [Unorder_map](https://en.cppreference.com/w/cpp/container/unordered_map)
+
+### Cheat Sheet
+![MapCheatSheet](../Images/map.png)
