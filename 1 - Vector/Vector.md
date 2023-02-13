@@ -149,3 +149,6 @@
   - Knowing the size – constant $O(1)$
   - Resizing the vector- Linear $O(N)$
 
+### Cheat Sheet
+![](Images/vector.png)
+
