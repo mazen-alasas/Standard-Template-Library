@@ -150,5 +150,5 @@
   - Resizing the vector- Linear $O(N)$
 
 ### Cheat Sheet
-![](Images/vector.png)
+![VectorCheatSheeet](../Images/vector.png)
 
