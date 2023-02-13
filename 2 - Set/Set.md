@@ -98,6 +98,17 @@
   - **Arranging order** The values in a set are **unindexed**.
   - Insertion of Elements $O(log N)$
   - Deletion of Elements $O(log N)$
+
+### Use for
+  - Removing duplicates
+  - Ordered dynamic storage
+
+### Do not use for
+  - Simple storage
+  - Direct access by index
+  
+### Notes
+  - Sets are often implemented with binary search trees
 ----
 ### Related Articles :
   - [Multiset](https://www.geeksforgeeks.org/multiset-in-cpp-stl/)
