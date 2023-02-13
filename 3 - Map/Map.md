@@ -126,7 +126,7 @@
   - Sorting
   
 ### Notes
-  - Typically ordered maps (`std::map`) are slower than unordered maps (`std::unordered_map`)
+  - Typically ordered maps `std::map` are slower than unordered maps `std::unordered_map`
   - Maps are typically implemented as *binary search trees*
 ----
 ### Related Articles :
