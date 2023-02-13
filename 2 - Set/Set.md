@@ -102,5 +102,6 @@
 ### Related Articles :
   - [Multiset](https://www.geeksforgeeks.org/multiset-in-cpp-stl/)
 
-
+### Cheat Sheet
+![SetCheatSheet](../Images/set.png)
 
