@@ -1,4 +1,4 @@
-# **Dueue** is a type of container adaptors that operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front
+# **Queue** is a type of container adaptors that operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front
 
 ### First import Queue Library
 ```cpp
@@ -53,8 +53,14 @@ output :
   ```
   5 4 3
   ```
-### Properties :
-  - Insertion or removal of elements $O(1)$
+### Use for
+  - First-In First-Out operations
+  - Ex: Simple online ordering system (first come first served)
+  - Ex: Semaphore queue handling
+  - Ex: CPU scheduling (FCFS)
+
+### Notes
+  - Often implemented as a `std::deque`
   
 ### Related Articles :
   - [Priority Queue](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
