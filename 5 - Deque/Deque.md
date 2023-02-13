@@ -1,4 +1,4 @@
-# **Deque (Deck)** is an indexed sequence container that allows fast insertion and deletion at both its beginning and its end.
+# **Deque** is an indexed sequence container that allows fast insertion and deletion at both its beginning and its end.
 
 ### First import Deque Library
 ```cpp
@@ -71,5 +71,16 @@ deque <int> d = {1,2,3,4,5};
   - Insertion or removal of elements $O(N)$
   - Insertion or removal of elements at start or end $O(1)$
 
+### Use for
+  - Similar purpose of `std::vector`
+  - Basically `std::vector` with efficient `push_front` and `pop_front`
+
+### Do not use for
+  - C-style contiguous storage (not guaranteed)
+  
+### Notes
+  - ronounced 'deck'
+  - Stands for **D**ouble **E**nded **Que**ue
+  
 ### Cheat Sheet
 ![DequeCheatSheet](../Images/deque.png)
