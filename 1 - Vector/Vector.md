@@ -149,6 +149,19 @@
   - Knowing the size – constant $O(1)$
   - Resizing the vector- Linear $O(N)$
 
+### Use for
+  - Simple storage
+  - Adding but not deleting
+  - Serialization
+  - Quick lookups by index
+  - Easy conversion to C-style arrays
+  - Efficient traversal (contiguous CPU caching)
+
+### Do not use for
+  - Insertion/deletion in the middle of the list
+  - Dynamically changing storage
+  - Non-integer indexing
+
 ### Cheat Sheet
 ![VectorCheatSheeet](../Images/vector.png)
 
