@@ -71,3 +71,5 @@ deque <int> d = {1,2,3,4,5};
   - Insertion or removal of elements $O(N)$
   - Insertion or removal of elements at start or end $O(1)$
 
+### Cheat Sheet
+![DequeCheatSheet](../Images/deque.png)
