@@ -111,6 +111,23 @@
   - All the elements in a map have **unique keys**
   - Insertion of Elements $O(log N)$
   - Deletion of Elements $O(log N)$
+
+### Use for
+  - Key-value pairs
+  - Constant lookups by key
+  - Searching if key/value exists
+  - Removing duplicates
+  - `std::map`
+    -  Ordered map
+  - `std::unordered_map`
+    - Hash table
+
+### Do not use for
+  - Sorting
+  
+### Notes
+  - Typically ordered maps (`std::map`) are slower than unordered maps (`std::unordered_map`)
+  - Maps are typically implemented as *binary search trees*
 ----
 ### Related Articles :
   - [Multimap](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/?ref=rp)
