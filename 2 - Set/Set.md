@@ -96,8 +96,6 @@
   - **Values Characteristics** All the elements in a set have unique values.
   - **Search Technique** Sets follow the Binary search tree implementation.
   - **Arranging order** The values in a set are **unindexed**.
-  - Insertion of Elements $O(log N)$
-  - Deletion of Elements $O(log N)$
 
 ### Use for
   - Removing duplicates
