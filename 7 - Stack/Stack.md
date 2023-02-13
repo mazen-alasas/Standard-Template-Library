@@ -57,3 +57,7 @@
     
     ```
     ```
+
+### Use for
+  - First-In Last-Out operations
+  - Reversal of elements
