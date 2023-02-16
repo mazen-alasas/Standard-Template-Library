@@ -25,7 +25,7 @@
 |[end()](https://www.geeksforgeeks.org/vectorbegin-vectorend-c-stl/) | `O(1)` | Returns an iterator to the last element in the vector |
 |[size()](https://cplusplus.com/reference/vector/vector/size/) | `O(1)` | Returns the number of elements in the vector |
 |[max_size()](https://www.geeksforgeeks.org/vector-max_size-function-in-c-stl/) | `O(1)` |  Returns the maximum number of elements that can hold |
-|[empty()](https://cplusplus.com/reference/vector/vector/empty/) | `O(1)` | return 1 if vector is empty else return 0 |
+|[empty()](https://cplusplus.com/reference/vector/vector/empty/) | `O(1)` | Return 1 if vector is empty else return 0 |
 |[at()](https://www.javatpoint.com/cpp-vector-at-function) | `O(1)` | Access element |
 |[front()](https://www.javatpoint.com/cpp-vector-front-function) | `O(1)` |  Access first element |
 |[back()](https://www.javatpoint.com/cpp-vector-back-function)  | `O(1)` | Access last element |
